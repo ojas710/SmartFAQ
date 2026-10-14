@@ -1,0 +1,11 @@
+# Fixes the base theme to light so the in-app Dark mode toggle behaves the same on every device,
+# even when the visitor's operating system is set to dark.
+[theme]
+base = "light"
+primaryColor = "#1D4ED8"
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
